@@ -10,7 +10,7 @@
 ## 使用SDK
 **Installing**
 
-使用 `go get`将SDK添加到您的工作区或项目的启动模块 
+使用 `go get`将SDK添加到您的`GOPATH` workspace或Go module dependencies 
 ```go
     go get github.com/yufuid/sso-go-sdk
 ```
