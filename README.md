@@ -8,6 +8,18 @@
 * 作为身份提供者（IDP）,可以使用玉符SDK灵活进行参数配置，并根据传入的回调地址生成带有token的跳转url，进行单点登录功能。
 
 ## 使用SDK
+**Installing**
+
+使用 `go get`将SDK添加到您的工作区或项目的启动模块 
+```go
+    go get github.com/yufuid/sso-go-sdk
+```
+
+如果需要更新SDK，请使用`go get -u`检索最新版本的SDK
+```go   
+    go get -u github.com/yufuid/sso-go-sdk
+```
+
 **服务提供者(SP)**
 1. 使用必要信息初始化SDK实例。注：开发阶段可以使用测试公钥`test/testPublicyKey.pem`
 ```go
@@ -60,3 +72,5 @@
  url, err := auth.GenerateIDPRedirectUrl(redirectUrl, &yufuAuth)
 ```
 3. 成功生成url后，进行302重定向跳转，若以上参数配置无误，则可单点登录至相应的应用。
+
+详细代码可参考git地址中test文件
