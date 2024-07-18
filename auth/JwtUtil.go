@@ -3,10 +3,11 @@ package auth
 import (
 	"crypto/rsa"
 	"errors"
-	"github.com/dgrijalva/jwt-go"
 	"io/ioutil"
 	"os"
 	"time"
+
+	"github.com/golang-jwt/jwt"
 )
 
 type JwtClaims struct {
