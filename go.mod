@@ -1,4 +1,4 @@
-module github.com/yufuid/sso-go-sdk
+module github.com/zhuermu/sso-go-sdk
 
 go 1.17
 

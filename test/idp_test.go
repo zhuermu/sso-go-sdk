@@ -2,9 +2,10 @@ package test
 
 import (
 	"fmt"
-	"github.com/yufuid/sso-go-sdk/auth"
 	"os"
 	"testing"
+
+	"github.com/zhuermu/sso-go-sdk/auth"
 )
 
 var idpAuth auth.YufuAuth
