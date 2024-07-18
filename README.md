@@ -12,12 +12,12 @@
 
 使用 `go get`将SDK添加到您的`GOPATH` workspace或Go module dependencies 
 ```go
-    go get github.com/yufuid/sso-go-sdk
+    go get github.com/zhuermu/sso-go-sdk
 ```
 
 如果需要更新SDK，请使用`go get -u`检索最新版本的SDK
 ```go   
-    go get -u github.com/yufuid/sso-go-sdk
+    go get -u github.com/zhuermu/sso-go-sdk
 ```
 
 **服务提供者(SP)**
